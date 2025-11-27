@@ -3,7 +3,7 @@ name: Deploy static content to Pages
 
 on:
   workflow_run:
-    workflows:["Lint Code Base"]
+    workflows: ["Lint Code Base"]
     types: 
       - completed
  
